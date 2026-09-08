@@ -1,0 +1,6 @@
+# Keep the public repository documentation-only.
+*
+!/.gitignore
+!/README.md
+!/papers/
+!/papers/README.md
