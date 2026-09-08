@@ -12,9 +12,9 @@ ADSFCM, CFCM và S2CFC**, đồng thời đề xuất **ADS3FCM (Asymmetric Devi
 Safe Semi-Supervised Fuzzy C-Means)**.
 
 > Repository này chỉ công khai thông tin tổng quan của đề tài.
-> Mã nguồn, dữ liệu thực nghiệm, hình ảnh kết quả và các bài báo PDF
+> Mã nguồn, dữ liệu thực nghiệm, kho kết quả đầy đủ và các bài báo PDF
 > được lưu trữ nội bộ, không phân phối qua GitHub. Poster tổng hợp
-> của đề tài được công khai bên dưới.
+> và hai hình ảnh kết quả tiêu biểu được công khai bên dưới.
 
 ## Poster nghiên cứu
 
@@ -82,6 +82,14 @@ và Near-Infrared để phân loại lớp phủ đất tại Tây Hồ và Lụ
 Dữ liệu MRI T1-weighted của BrainWeb được sử dụng để phân đoạn các cấu trúc
 mô não và so sánh kết quả với ground truth.
 
+## Kết quả trực quan với ảnh Landsat 8 (Khu vực xã Lục Nam)
+
+![Kết quả phân cụm ảnh Landsat 8 tại khu vực xã Lục Nam](result-landsat.png)
+
+## Kết quả trực quan với ảnh MRI (T1 BrainWeb)
+
+![Kết quả phân đoạn ảnh MRI T1 BrainWeb](result-mri.png)
+
 ## Chỉ số đánh giá
 
 | Nhóm | Chỉ số | Hướng tốt |
@@ -119,6 +127,8 @@ SVNCKH2526/
 ├── .gitignore
 ├── README.md
 ├── PTKH_DongVanTu.pdf
+├── result-landsat.png
+├── result-mri.png
 └── papers/
     └── README.md
 ```
